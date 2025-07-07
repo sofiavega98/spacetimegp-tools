@@ -4,6 +4,15 @@ A simple R package for simulating and fitting spatiotemporal Gaussian Process mo
 
 ## Installation
 
+**Prerequisites:**
+This package requires `rstan` to be installed first:
+
+```r
+# Install rstan first (required)
+install.packages("rstan", repos = "https://cran.rstudio.com/")
+```
+
+**Then install this package:**
 ```r
 # Install from GitHub
 devtools::install_github("sofiavega98/spacetimegp-tools")
