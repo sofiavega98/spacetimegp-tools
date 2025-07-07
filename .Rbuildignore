@@ -1,0 +1,7 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^simulations/$
+^kernel_demo/$
+^STAN/$
+^\.DS_Store$
+^examples/$ 

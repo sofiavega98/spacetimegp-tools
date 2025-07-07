@@ -1,0 +1,76 @@
+# R
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.Rapp.history
+.Renviron
+.Rprofile
+
+# Stan
+*.stan.rds
+*.stan.rda
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project specific
+*.log
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# R build artifacts
+*.tar.gz
+*.tgz
+*.zip
+
+# R session files
+.Rhistory
+.RData
+.Rapp.history
+
+# RStudio files
+.Rproj.user/
+*.Rproj
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Development and simulation directories (not needed for package users)
+simulations/
+STAN/
+kernel_demo/
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# R package specific
+*.Rcheck/
+*.Rcheck.bak/ 
