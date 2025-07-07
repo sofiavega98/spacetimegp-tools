@@ -1,7 +1,7 @@
 # Example usage of spacetimegp package
 # This script demonstrates the basic workflow
 
-library(spacetimegp_tools)
+library(spacetimegptools)
 
 # Example 1: Simulate and fit Poisson data with separable kernel
 cat("Example 1: Poisson data with separable kernel\n")

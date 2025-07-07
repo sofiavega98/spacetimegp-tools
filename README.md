@@ -15,7 +15,7 @@ devtools::install(".")
 ## Quick Start
 
 ```r
-library(spacetimegp_tools)
+library(spacetimegptools)
 
 # Simulate data
 data <- simulate_data(
@@ -51,7 +51,7 @@ Fits spatiotemporal Gaussian Process models using Stan:
 ## Example Workflow
 
 ```r
-library(spacetimegp_tools)
+library(spacetimegptools)
 
 # 1. Simulate data
 sim_data <- simulate_data(
