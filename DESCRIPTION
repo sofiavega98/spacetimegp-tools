@@ -1,4 +1,4 @@
-Package: spacetimegp
+Package: spacetimegp_tools
 Type: Package
 Title: Spatiotemporal Gaussian Process Models
 Version: 0.1.0

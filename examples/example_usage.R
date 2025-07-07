@@ -1,7 +1,7 @@
 # Example usage of spacetimegp package
 # This script demonstrates the basic workflow
 
-library(spacetimegp)
+library(spacetimegp_tools)
 
 # Example 1: Simulate and fit Poisson data with separable kernel
 cat("Example 1: Poisson data with separable kernel\n")
@@ -95,9 +95,8 @@ cat("Number of observations:", nrow(sim_data_gneiting), "\n\n")
 # Summary
 cat("Summary\n")
 cat("=======\n")
-cat("All examples completed successfully!\n")
-cat("The package provides:\n")
-cat("- Data simulation with 4 kernel types (sep, nonsep, ICM, gneiting)\n")
-cat("- Model fitting with 3 kernel types (sep, nonsep, ICM)\n")
-cat("- Support for both Poisson and Normal outcomes\n")
+cat("Package functionality demonstrated:\n")
+cat("- simulate_data(): 4 kernel types (sep, nonsep, ICM, gneiting)\n")
+cat("- fit_model(): 3 kernel types (sep, nonsep, ICM)\n")
+cat("- Both Poisson and Normal outcome distributions\n")
 cat("- Automatic Stan model selection and data formatting\n") 
